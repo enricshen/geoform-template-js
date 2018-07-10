@@ -1,4 +1,4 @@
-# geoform-template-js
+﻿# geoform-template-js with BOPRC theme
 
 ![App](http://esri.github.io/geoform-template-js/images/item.png)
 
