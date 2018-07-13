@@ -60,6 +60,12 @@ define(
         "thumbnail": "js/vendor/bootswatch/paper/thumbnail.png",
         "refUrl": "http://bootswatch.com/paper/"
     }, {
+        "id": "pulse",
+        "name": "Paper",
+        "url": "js/vendor/bootswatch/pulse/bootstrap.min.css",
+        "thumbnail": "js/vendor/bootswatch/pulse/thumbnail.png",
+        "refUrl": "http://bootswatch.com/pulse/"
+    }, {
         "id": "readable",
         "name": "Readable",
         "url": "js/vendor/bootswatch/readable/bootstrap.min.css",
