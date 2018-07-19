@@ -28,6 +28,27 @@
     background-color: #46417c;
 }
 
+/*footer*/
+.copyrights{
+margin-top:25px;
+}
+
+footer.fullscreen_container.text-center.foot {
+    background: #383838;
+}
+
+.dark-line{
+border-top: 1px solid #525252;
+}
+
+.white-txt{
+color: #FFF;
+}
+
+
+.footimg{
+width: 5rem;
+}
 
 
 /* original */
