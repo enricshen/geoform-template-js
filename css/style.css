@@ -29,12 +29,10 @@
 }
 
 /*footer*/
-.copyrights{
-margin-top:25px;
-}
 
-footer.fullscreen_container.text-center.foot {
-    background: #383838;
+
+footer{
+    background-color: : #67c8c7;
 }
 
 .dark-line{
