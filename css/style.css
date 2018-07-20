@@ -126,7 +126,7 @@ width: 5rem;
   top: 40%;
   left: 45%;
   overflow: hidden;
-  margin: 0 0 0 0;
+  margin: -110px 0 0 -120px;
 }
 
 .app-error .icon-loading {
