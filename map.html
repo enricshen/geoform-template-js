@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="fragment" content="!">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Keywords" content="GeoForm, GeoForm Template, Template, Map, Esri">
+    <meta name="description" content="GeoForm is a configurable template for form based data editing of a Feature Service. This application allows users to enter data through a form instead of a map’s pop-up while leveraging the power of the Web Map and editable Feature Services.">
+    <meta name="author" content="esri">
+    <!-- Facebook -->
+    <meta property="og:title" content="GeoForm">
+    <meta property="og:image" content="images/item.png">
+    <meta property="og:site_name" content="esri">
+    <!-- Chrome for Android -->
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <title>Predator Free Map</title>
+    <!-- Bootstrap core CSS -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" type="text/css" href="js/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="js/vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" type="text/css" href="js/vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link id="rtlCSS" rel="stylesheet" />
+    <link href="js/vendor/select2/select2.min.css" rel="stylesheet" />
+    <link href="js/vendor/touch-spinner/jquery.bootstrap-touchspin.min.css" rel="stylesheet" type="text/css" />
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/moment-with-langs.min.js"></script>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="js/vendor/html5shiv.min.js"></script>
+    <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500" rel="stylesheet">
+</head>
+
+<body>
+    <style>
+            /* CUSTOM CSS RULES */
+        html * {
+            font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+        }
+
+        .MapFrame{ 
+                margin-top:25px;
+            }
+    </style>
+
+    <!-- Navigation -->
+    <div class="navbar navbar-inverse navbar-fixed-top navbar-custom">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand">Predator Free Public Dashboard</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-right">
+            
+            <li>
+              <a href="../help/">Signup</a>
+            </li>
+            <li>
+              <a href="">Log catches</a>
+            </li>
+            <li>
+              <a href="">Map</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Map Frame -->
+    <div class="embed-responsive embed-responsive-16by9 top MapFrame">
+        <iframe class="embed-responsive-item" src="https://boprc.maps.arcgis.com/apps/webappviewer/index.html?id=08d82d92648c4ba6869f910dbc2b15a6"></iframe>
+    </div>
+    <div class="clearfix"></div>
+
+
+ <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4>Original processes provided by <a href="http://nzgic.org/">NZ GIS in Conservation </a></h4>
+                    <p>Copyright &copy; Bay of Plenty Regional Council 2018</p>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="https://www.facebook.com"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/intent/tweet"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i>Back to Top</a>
+    </footer>
+
+    
+</body>
+
+</html>
