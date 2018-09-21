@@ -2490,14 +2490,14 @@ define([
       // create modal content
       this._createShareDlgContent();
       // create modal
-      this._ShareModal = new ShareModal({
+      /*this._ShareModal = new ShareModal({
         image: this.config.sharinghost + '/sharing/rest/content/items/' + this.config.itemInfo.item.id + '/info/' + this.config.itemInfo.item.thumbnail,
         title: this.config.details.Title || nls.user.geoformTitleText || '',
         summary: this.config.itemInfo.item.snippet || '',
         hashtags: 'esriGeoForm',
         shareOption: this.config.enableSharing
       });
-      this._ShareModal.startup();
+      this._ShareModal.startup(); */
       // show modal
       $("#myModal").modal('show');
       domAttr.set(dom.byId("viewSubmissionsOption"), "href", this._viewSubmissions());
