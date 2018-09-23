@@ -1,6 +1,6 @@
 ﻿# geoform-template for Predator Free Website
 
-![App](http://esri.github.io/geoform-template-js/images/apps/PredatorFree_Logo.png)
+
 
 FOR testing purpose, use appid=78e8c8fe44d64a86b6c3b89f318f6cf8
 
