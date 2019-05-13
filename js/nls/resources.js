@@ -81,7 +81,6 @@ define({
       findMyLocation: "Locate Me",
       finding: "Locating&hellip;",
       backToTop: "Back to top",
-      addressSearchText: "Your submission will appear here. You can drag the pin to correct the location.",
       shareModalFormText: "Form Link",
       close: "Close",
       locationNotFound: "Location could not be found.",
