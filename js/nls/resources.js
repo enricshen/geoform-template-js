@@ -81,6 +81,7 @@ define({
       findMyLocation: "Locate Me",
       finding: "Locating&hellip;",
       backToTop: "Back to top",
+      addressSearchText: "Your submission will appear here. Please place the pointer within your property boundary, so it can be linked to the correct address. ",
       shareModalFormText: "Form Link",
       close: "Close",
       locationNotFound: "Location could not be found.",
